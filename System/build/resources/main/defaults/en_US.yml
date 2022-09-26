@@ -1,0 +1,10 @@
+Prefix: '&e&lCyberpixel &b•&r'
+NoPerms: '%prefix% &6You are not permitted to do this.'
+PlayerNotFound: '%prefix% &6The Player could not be found.'
+
+command:
+  system:
+    info: '%prefix% &fThis is the &e&lCyberpunk &fx &b&lNightPixel &fSystem Plugin. Version: &b%version%'
+    help:
+      - '%prefix% &e&lCyberpunk &fx &b&lNightPixel &f- System Help'
+      - '%prefix% &fThe Plugin is up to date on version &b%version%'

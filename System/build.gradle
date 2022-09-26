@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'net.nightpixel'
-version '1.0-SNAPSHOT'
+version 'pre-0.2.14'
 
 repositories {
     mavenCentral()
@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT")
+    compileOnly files("S:\\Developement\\workspace\\FP-workspace\\LanguageModule\\build\\libs\\LanguageModule-1.2-SNAPSHOT.jar")
 }
 
 test {

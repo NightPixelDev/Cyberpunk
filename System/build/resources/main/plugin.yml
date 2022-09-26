@@ -1,0 +1,37 @@
+name: CyberpunkSystem
+version: pre-0.1.14
+api-version: 1.19
+authors:
+  - LUPLUV
+main: net.nightpixel.cyberpunk.system.Main
+
+commands:
+  system:
+    description: 'Manage the Plugin as Administrator'
+  menu:
+    description: 'See the Menu'
+    aliases:
+      - inv
+      - inventory
+      - equipement
+      - m
+  map:
+    description: 'Shows the Map'
+    aliases:
+      - world
+      - worldmap
+  garage:
+    description: 'Opens your Vehicle Garage'
+    aliases:
+      - vehicles
+      - g
+  cyberpunk:
+    description: 'Info Command'
+    aliases:
+      - cyber
+      - punk
+      - help
+  transportation:
+    description: 'Edit transportations'
+    aliases:
+      - transport
